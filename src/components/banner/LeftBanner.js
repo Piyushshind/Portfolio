@@ -1,7 +1,8 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
+import { BsGithub } from "react-icons/bs";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -16,7 +17,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Piyush Shinde</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -39,14 +40,15 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <a href='https://github.com/Piyushshind'> <BsGithub /></a>
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+              <a href='https://twitter.com/PiyushS45833750'><FaTwitter /></a>
             </span>
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <a href='https://www.linkedin.com/in/piyush-shinde-bb1081254/'><FaLinkedinIn /></a>
             </span>
+            
           </div>
         </div>
         <div>
@@ -58,13 +60,14 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+            <SiJavascript />
+              
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+            <SiCss3 />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiHtml5 />
             </span>
           </div>
         </div>
