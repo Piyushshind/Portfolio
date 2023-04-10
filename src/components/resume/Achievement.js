@@ -47,7 +47,7 @@ const Achievement = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Frentend Devloper"
+            title="Frontend Devloper"
             subTitle="Web Devloper."
             result="Success"
             des="I have Complete 4 months Experience at FunctionUp as a Frentend Devloper "

@@ -1,5 +1,6 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import React from "react";
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -11,37 +12,43 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">John Doe</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Piyush Shinde</h3>
+        <p className="text-lg font-normal text-gray-400">Frontend Developer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          Completed a Front-end course and looking for an opportunity in web
+          development. Highly poised and dedicated with a strong education in
+          UI/UX design principles and programming languages
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 7249778140</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">piyushshinde.199@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href="https://www.instagram.com/piyush_07s/">
+              <FiInstagram />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href="https://twitter.com/PiyushS45833750">
+              <FaTwitter />
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href="https://www.linkedin.com/in/piyush-shinde-bb1081254/">
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;

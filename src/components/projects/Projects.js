@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectThree ,Restaurent ,Tweeter,Ecom } from "../../assets/index";
+import { projectOne, projectThree ,Restaurent ,Tweeter,Ecom ,GDoc } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -54,9 +54,18 @@ const Projects = () => {
         />
         <ProjectsCard
           title="Restaurent Web"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="•Created Restaurent menu book and Pricing details with interior look of Restaurent and in that user can register himself "
           src={Restaurent}
+        />
+
+        <ProjectsCard
+          title="Google Doc Clone"
+          des="•Created a Google Docs Website clone with React
+          JS, HTML5, JS, CSS3, capturing key features and
+          delivering seamless user experience akin to the
+          official site.
+          "
+          src={GDoc}
         />
         
       </div>
