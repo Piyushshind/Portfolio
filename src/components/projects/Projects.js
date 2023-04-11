@@ -24,6 +24,7 @@ const Projects = () => {
           fitness classes, and allow users to sign up and
           Carousel to showcase the activities."
           src={projectOne}
+          link='https://github.com/Piyushshind/gym-website'
         />
         <ProjectsCard
           title="E-commerce Website"
@@ -34,6 +35,7 @@ const Projects = () => {
           and deployed independently.
           "
           src={Ecom}
+          link='https://github.com/Piyushshind/LoginPageMFE'
         />
         <ProjectsCard
           title="Tweeter Clone"
@@ -43,6 +45,7 @@ const Projects = () => {
           and also Utilized local storage to store data.
           "
           src={Tweeter}
+          link='https://github.com/Piyushshind/TwitterClone'
         />
         <ProjectsCard
           title="Sign-Up and Sing-In Form"
@@ -51,11 +54,13 @@ const Projects = () => {
                  the user data and the proceedes for next step . 
           "
           src={projectThree}
+          link='https://github.com/Piyushshind'
         />
         <ProjectsCard
           title="Restaurent Web"
           des="•Created Restaurent menu book and Pricing details with interior look of Restaurent and in that user can register himself "
           src={Restaurent}
+          link='https://github.com/Piyushshind/RestaurantMenuApp'
         />
 
         <ProjectsCard
@@ -66,6 +71,7 @@ const Projects = () => {
           official site.
           "
           src={GDoc}
+          link='https://github.com/Piyushshind/GoogleDocsApp'
         />
         
       </div>
