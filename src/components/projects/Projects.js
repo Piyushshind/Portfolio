@@ -46,6 +46,7 @@ const Projects = () => {
           "
           src={Tweeter}
           link='https://github.com/Piyushshind/TwitterClone'
+          link2='https://twitter-clone-git-master-piyushshind.vercel.app/'
         />
         <ProjectsCard
           title="Sign-Up and Sing-In Form"
@@ -72,6 +73,7 @@ const Projects = () => {
           "
           src={GDoc}
           link='https://github.com/Piyushshind/GoogleDocsApp'
+          link2='https://google-docs-app-eta.vercel.app/'
         />
         
       </div>
