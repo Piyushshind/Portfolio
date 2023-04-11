@@ -23,7 +23,7 @@ const ProjectsCard = ({ title, des, src ,link , link2}) => {
                 <a href={link}><BsGithub /></a>
               </span>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <FaGlobe /> <a href={link2}></a>
+                 <a href={link2}> <FaGlobe /></a>
               </span>
             </div>
           </div>
