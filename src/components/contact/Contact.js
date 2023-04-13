@@ -108,7 +108,7 @@ const Contact = () => {
                   </p>
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
-                    value={phoneNumber}
+                    value={phoneNumber} name='user_number'
                     className={`${
                       errMsg === "Phone number is required!" &&
                       "outline-designColor"
