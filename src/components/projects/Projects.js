@@ -62,6 +62,7 @@ const Projects = () => {
           des="•Created Restaurent menu book and Pricing details with interior look of Restaurent and in that user can register himself "
           src={Restaurent}
           link='https://github.com/Piyushshind/RestaurantMenuApp'
+          link2='https://restaurant-menu-web-app.vercel.app/'
         />
 
         <ProjectsCard
